@@ -87,7 +87,7 @@ public class CalculatorTest {
 		// Act -- Multiplier par zéro
 		int actualResult = calculatorUnderTest.multiply(arg, 0);
 
-		// Assert -- ça vaut toujours zéro !
+		// Assert -- ça vaut toujours zéro ! 
 		assertEquals(0, actualResult);
 	}
 
